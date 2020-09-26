@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    font-family:"Comfortaa",sans-serif;
+    background-image: linear-gradient(to bottom right,cyan,blue)
+}   
+
+.todolistarea
+{
+    width: 40%;
+    margin: 70px auto;
+    padding: 20px;
+    min-width:441px; 
+    height: 74vh;
+}
+.todos
+{
+    height: 65vh;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+.text-input
+{
+   width: 75%; 
+    padding:5px;
+    border: none;
+    border-radius:3px; 
+    height: 20px;
+}
+.formButton
+{
+    width: 22%;
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    transition: ease-in-out 0.5s;
+    padding: 5px;
+    
+}
+.formButton:hover
+{
+    background-color:blue;
+    transition: ease-in-out 0.5s;
+}
+.todo{
+    padding: 10px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 3px;
+    width: 95.25%;
+    margin-bottom: 10px;
+}
+.todoHeading
+{
+    width: 90%;  
+}
+.close{
+  float: right;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: rgba(255,255,255,0)  
+}
+
+.close:hover{
+    color:cyan;
+}
